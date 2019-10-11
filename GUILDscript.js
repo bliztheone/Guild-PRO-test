@@ -73,7 +73,7 @@ class Shop {
     let card = document.createElement("div");
     card.classList.add("app__product-card");
     let productImg = document.createElement("div");
-    productImg.innerHTML = '<img class="app__product-img" src="http://rrstatic.retailrocket.net/test_task/tovar.jpg" alt="product image">';
+    productImg.innerHTML = '<img class="app__product-img" src="./tovar.jpg" alt="product image">';
     card.append(productImg);
     let productName = document.createElement("div");
     productName.classList.add("app__product-name");
